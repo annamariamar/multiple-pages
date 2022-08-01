@@ -94,3 +94,15 @@ img {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 600px) {
+  img {
+    display: none;
+  }
+  button {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}

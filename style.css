@@ -95,21 +95,24 @@ img {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   img {
     display: none;
-  }
-  li {
-    text-align: center;
   }
 
   h1 {
     text-align: center;
-    size: 30px;
+    font-size: 30px;
   }
 
   h2,
   p {
     text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 30px;
   }
 }

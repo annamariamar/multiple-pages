@@ -102,7 +102,12 @@ img {
   href {
     text-align: center;
   }
-  h1,
+
+  h1 {
+    text-align: center;
+    size: 60px;
+  }
+
   h2,
   p {
     text-align: center;
